@@ -1,4 +1,5 @@
 # UI inspection
 command alias autoLayoutTrace expr -l objc -o -- [[UIWindow keyWindow] _autolayoutTrace]
 command alias printHierarchy expr -l objc -O -- [[[UIWindow keyWindow] rootViewController] _printHierarchy]
+# Can be helpful to execute objective-c when breakpoint is stopped in swift context
 command alias cpo expression -l objc -O --
