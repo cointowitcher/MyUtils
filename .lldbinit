@@ -1,3 +1,4 @@
 # UI inspection
 command alias autoLayoutTrace expr -l objc -o -- [[UIWindow keyWindow] _autolayoutTrace]
 command alias printHierarchy expr -l objc -O -- [[[UIWindow keyWindow] rootViewController] _printHierarchy]
+command alias cpo expression -l objc -O --
